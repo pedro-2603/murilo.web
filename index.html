@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas</title>
+    <style>
+        .pagina {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9ec7c;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cartao {
+            background-color: #007BFF;
+            border: 2px solid rgb(3, 12, 249);
+            border-radius: 10px;
+            width: 350px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        /* Aumentando a margem à direita da imagem */
+        .imagem {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px; /* Adicionando mais espaço entre a imagem e o texto */
+        }
+
+        .imagem img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid rgb(3, 12, 249);
+        }
+
+        .nome {
+            font-size: 1.6em;
+            color: #333;
+        }
+
+        .cargo {
+            font-size: 1.2em;
+            color: #3c3d38;
+            background-color: #94bfff;
+        }
+
+        .contato {
+            font-size: 1em;
+            color: #161515;
+            background-color: #94bfff;
+        }
+
+        /* Estilo para os links clicáveis */
+        .contato a {
+            color: #161515;
+            text-decoration: none;
+        }
+
+        .contato a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cartao">
+        <div class="imagem">
+            <img src="img/muriloweb.jpeg" alt="Foto de Perfil">
+        </div>
+        <div>
+            <h1 class="nome">Pedro Lucas</h1>
+            <p class="cargo">Desenvolvedor Web</p>
+            <p class="contato">E-mail: <a href="mailto:p.santos@aluno.ifce.edu.br">p.santos@aluno.ifce.edu.br</a></p>
+            <p class="contato">Telefone: <a href="tel:+5585991720566">(85) 99172-0566</a></p>
+        </div>
+    </div>
+</body>
+</html>
